@@ -24,11 +24,11 @@ end;
 // endogenous variables
 steady_state_model;
 k = ((1-beta*(1-delta))/(beta*alpha*A))^(1/(alpha-1));
-c = A*k^alpha-delta*k;
+c = A*k^alpha-delta*k+2*k-k-k;
 end;
 
 initval;
-A = 1;
+A = 2;
 end;
 
 // display the steady-state
