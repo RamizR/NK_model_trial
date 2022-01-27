@@ -28,7 +28,7 @@ c = A*k^alpha-delta*k;
 end;
 
 initval;
-A = 1;
+A = 2;
 end;
 
 // display the steady-state
